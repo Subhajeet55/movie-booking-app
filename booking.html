@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Book Tickets</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav>
+    <h2>🎬 MovieBook</h2>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="booking.html">Booking</a></li>
+      <li><a href="tickets.html">My Tickets</a></li>
+      <li><a href="signup.html">Signup</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+  </nav>
+
+  <section class="booking">
+    <h1>Book Your Movie</h1>
+    <form>
+      <label>Choose Movie:</label>
+      <select>
+        <option>Fantastic 4</option>
+        <option>Avengers Doomsday</option>
+        <option>Spider-Man: Brand new day</option>
+        <option>Batman rises again</option>
+        <option>Doctor Strange: Multiverse of madness</option>
+        <option>Black-Panther: Legacy</option>
+      </select>
+
+      <label>Select Date:</label>
+      <input type="date">
+
+      <label>Select Time:</label>
+      <select>
+        <option>10:00 AM</option>
+        <option>1:00 PM</option>
+        <option>4:00 PM</option>
+        <option>7:00 PM</option>
+      </select>
+
+      <label>Choose Seats:</label>
+      <div class="seats">
+        <div class="seat"></div>
+        <div class="seat"></div>
+        <div class="seat booked"></div>
+        <div class="seat"></div>
+      </div>
+
+      <button type="submit">Confirm Booking</button>
+    </form>
+  </section>
+  <script src="script.js"></script>
+</body>
+</html>
